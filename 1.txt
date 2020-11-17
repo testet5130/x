@@ -1,0 +1,14 @@
+apiKey:3644d80ea8eba40461d7e84820d2a4ef9c9e9040981eeb9f5da5bc036191189d
+
+
+Premier League:148 - England:41;
+La Liga:468 - spain:135
+Serie A:262 - italy:68
+Bundesliga:196 - Germany:51
+French league:176 - France:46
+Egyptian Premier League:144 - Egypt:39
+Saudi Pro League:421 - Saudi Arabia:123
+Botola 2:338 - Morocco:96 المغرب
+Algerian Ligue Professionnelle 1:4 - Algeria:2 الجزائر
+Tunisian Ligue Professionnelle 1:509 - Tunisian:147 تونس
+UAE League:529 - United Arab Emirates:152

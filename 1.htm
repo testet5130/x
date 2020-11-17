@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .table{display: table;width: 90%;margin: 0 auto;text-align: center;}
+        .table .tr{display: table-row;}
+        .table .tr:first-child{background-color: #00a9dd;color: #fff;}
+        .table .tr:nth-child(odd){box-shadow: 0 0 5px #ddd;}
+        .table .th,.table .td{display:table-cell;padding: 10px 0;}
+        .table .th{font-weight: bold;}
+        .table .td:first-child{border-left:solid #00a9dd;}
+        .table .td{background-color: #fff;}
+
+        @media only screen and (max-width: 600px) {
+            .table{font-size: 8px;}
+        }
+
+        @media only screen and (min-width: 600px) {
+            .table{font-size: 15    px;}
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="table">
+        <div class="tr">
+            <div class="th">pos</div>
+            <div class="th">club</div>
+            <div class="th">played</div>
+            <div class="th">won</div>
+            <div class="th">drawn</div>
+            <div class="th">lost</div>
+            <div class="th">for</div>
+            <div class="th">againest</div>
+            <div class="th">points</div>
+        </div>  
+    </div>
+    <script>
+
+        var tr, table;
+        table = document.querySelector(".table");
+        for(let i = 0;i < 9;i++) {
+
+            tr = document.createElement("div");
+            tr.setAttribute("class", "tr");
+
+            td = document.createElement("div");
+            td.setAttribute("style", "padding:10px 0");
+            
+            tr.appendChild(td);
+            table.appendChild(tr);
+
+            td = document.createElement("div");
+            
+            td.setAttribute("class", "td");
+            td.textContent = "td"+i.toString();
+
+            tr = document.createElement("div");
+            tr.setAttribute("class", "tr");
+
+            td1 = document.createElement("div");
+            td1.setAttribute("class", "td");
+            td1.textContent = "td"+i.toString();
+
+            td2 = document.createElement("div");
+            td2.setAttribute("class", "td");
+            td2.textContent = "td"+i.toString();
+
+            td3 = document.createElement("div");
+            td3.setAttribute("class", "td");
+            td3.textContent = "td"+i.toString();
+
+            td4 = document.createElement("div");
+            td4.setAttribute("class", "td");
+            td4.textContent = "td"+i.toString();
+
+            td5 = document.createElement("div");
+            td5.setAttribute("class", "td");
+            td5.textContent = "td"+i.toString();
+
+            td6 = document.createElement("div");
+            td6.setAttribute("class", "td");
+            td6.textContent = "td"+i.toString();
+
+            td7 = document.createElement("div");
+            td7.setAttribute("class", "td");
+            td7.textContent = "td"+i.toString();
+
+            td8 = document.createElement("div");
+            td8.setAttribute("class", "td");
+            td8.textContent = "td"+i.toString();
+
+            tr.appendChild(td);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tr.appendChild(td4);
+            tr.appendChild(td5);
+            tr.appendChild(td6);
+            tr.appendChild(td7);
+            tr.appendChild(td8);
+
+            table.appendChild(tr);
+
+        }
+
+    </script>
+</body>
+</html>
